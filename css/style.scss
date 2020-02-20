@@ -100,6 +100,7 @@ header{
     border-radius: 0;
     color: #4d4d4d;
     font-size: 16px;
+    padding: 18px 45px;
     font-family: 'Asap', normal;
     font-weight: 500;
     &:hover{
@@ -116,9 +117,28 @@ header{
     color: #7c7c7c;
     font-size: 46px;
     position: relative;
+    font-family: 'Asap', normal;
+    font-weight: bold;
   }
-  p{}
-  a{}
+  p{
+    margin-bottom: 35px;
+    margin-right: 100px;
+    color: #7c7c7c;
+    font-size: 16px;
+    font-family: 'Asap', normal;
+    font-weight: normal;
+  }
+  .btn.btn-default{
+    background-color: transparent;
+    background-image: none;
+    border: #4d4d4d solid 1px;
+    border-radius: 0;
+    color: #4d4d4d;
+    font-size: 16px;
+    padding: 18px 45px;
+    font-family: 'Asap', normal;
+    font-weight: 500;
+  }
 }
 .about h3:before{
   content: '';
@@ -126,6 +146,9 @@ header{
   width: 65px;
   display: block;
   position: absolute;
-  bottom: 123px;
-
+  bottom: 120px;
+}
+.img_cv{
+  margin-top: 110px;
+  margin-bottom: 125px;
 }
