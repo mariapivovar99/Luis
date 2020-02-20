@@ -42,6 +42,7 @@
 
 header{
   background-image: url(../images/bg_element.png);
+  background-repeat: no-repeat;
 }
 .navbar-default{
   box-shadow: none;
@@ -64,7 +65,6 @@ header{
     a{
       color: #4d4d4d;
       border-bottom: solid 1px #4d4d4d;
-      text-transform: none;
     }
   }
 }
@@ -72,7 +72,7 @@ header{
   margin: 25px 0;
 }
 .luis{
-  h3{
+  h2{
     margin-top: 168px;
     font-size: 90px;
     color: #4d4d4d;
@@ -86,11 +86,12 @@ header{
     font-weight: 500;
     margin-bottom: 30px;
   }
-  p{
-    margin-top: 30px;
-    margin-bottom: 300px;
+  div{
+
     a{
       margin-right: 20px;
+      margin-top: 30px;
+      margin-bottom: 300px;
     }
   }
   .btn.btn-default{
@@ -103,6 +104,7 @@ header{
     padding: 18px 45px;
     font-family: 'Asap', normal;
     font-weight: 500;
+
     &:hover{
       background-color: white;
       box-shadow: #9b9b9b 0 0 10px;
@@ -113,14 +115,14 @@ header{
 .about{
   margin-top: 178px;
   margin-bottom: 175px;
-  h3{
+  h4{
     color: #7c7c7c;
     font-size: 46px;
     position: relative;
     font-family: 'Asap', normal;
     font-weight: bold;
   }
-  p{
+  a{
     margin-bottom: 35px;
     margin-right: 100px;
     color: #7c7c7c;
@@ -128,6 +130,7 @@ header{
     font-family: 'Asap', normal;
     font-weight: normal;
   }
+
   .btn.btn-default{
     background-color: transparent;
     background-image: none;
@@ -138,9 +141,10 @@ header{
     padding: 18px 45px;
     font-family: 'Asap', normal;
     font-weight: 500;
+    margin-top: 35px;
   }
 }
-.about h3:before{
+.about h4:before{
   content: '';
   border-bottom: #7c7c7c solid 5px;
   width: 65px;
@@ -152,3 +156,43 @@ header{
   margin-top: 110px;
   margin-bottom: 125px;
 }
+.serv{
+  background-color: #f6f6f6;
+  padding-bottom: 24px;
+  img{
+    margin-bottom: 20px;
+  }
+}
+.serv, .skills{
+  h4 {
+    color: #7c7c7c;
+    font-size: 46px;
+    margin-top: 140px;
+    margin-bottom: 60px;
+    position: relative;
+    font-family: 'Asap', normal;
+    font-weight: bold;
+  }
+  h4:before {
+    content: '';
+    border-bottom: #7c7c7c solid 5px;
+    width: 65px;
+    display: block;
+    position: absolute;
+    bottom: 70px;
+    left: 47%;
+  }
+  h5{
+    padding-bottom: 80px;
+    font-size: 24px;
+    color: #4d4d4d;
+    font-family: 'Asap', normal;
+    font-weight: 500;
+  }
+}
+.skills{
+  img{
+    margin-bottom: 125px;
+  }
+}
+

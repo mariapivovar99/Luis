@@ -22,7 +22,8 @@
   font-size: inherit; }
 
 header {
-  background-image: url(../images/bg_element.png); }
+  background-image: url(../images/bg_element.png);
+  background-repeat: no-repeat; }
 
 .navbar-default {
   box-shadow: none;
@@ -42,13 +43,12 @@ header {
 
 .navbar-default .navbar-nav > li:hover a {
   color: #4d4d4d;
-  border-bottom: solid 1px #4d4d4d;
-  text-transform: none; }
+  border-bottom: solid 1px #4d4d4d; }
 
 .navbar-brand > img {
   margin: 25px 0; }
 
-.luis h3 {
+.luis h2 {
   margin-top: 168px;
   font-size: 90px;
   color: #4d4d4d;
@@ -60,11 +60,10 @@ header {
   font-family: 'Asap', normal;
   font-weight: 500;
   margin-bottom: 30px; }
-.luis p {
+.luis div a {
+  margin-right: 20px;
   margin-top: 30px;
   margin-bottom: 300px; }
-  .luis p a {
-    margin-right: 20px; }
 .luis .btn.btn-default {
   background-color: transparent;
   background-image: none;
@@ -83,13 +82,13 @@ header {
 .about {
   margin-top: 178px;
   margin-bottom: 175px; }
-  .about h3 {
+  .about h4 {
     color: #7c7c7c;
     font-size: 46px;
     position: relative;
     font-family: 'Asap', normal;
     font-weight: bold; }
-  .about p {
+  .about a {
     margin-bottom: 35px;
     margin-right: 100px;
     color: #7c7c7c;
@@ -105,9 +104,10 @@ header {
     font-size: 16px;
     padding: 18px 45px;
     font-family: 'Asap', normal;
-    font-weight: 500; }
+    font-weight: 500;
+    margin-top: 35px; }
 
-.about h3:before {
+.about h4:before {
   content: '';
   border-bottom: #7c7c7c solid 5px;
   width: 65px;
@@ -117,6 +117,38 @@ header {
 
 .img_cv {
   margin-top: 110px;
+  margin-bottom: 125px; }
+
+.serv {
+  background-color: #f6f6f6;
+  padding-bottom: 24px; }
+  .serv img {
+    margin-bottom: 20px; }
+
+.serv h4, .skills h4 {
+  color: #7c7c7c;
+  font-size: 46px;
+  margin-top: 140px;
+  margin-bottom: 60px;
+  position: relative;
+  font-family: 'Asap', normal;
+  font-weight: bold; }
+.serv h4:before, .skills h4:before {
+  content: '';
+  border-bottom: #7c7c7c solid 5px;
+  width: 65px;
+  display: block;
+  position: absolute;
+  bottom: 70px;
+  left: 47%; }
+.serv h5, .skills h5 {
+  padding-bottom: 80px;
+  font-size: 24px;
+  color: #4d4d4d;
+  font-family: 'Asap', normal;
+  font-weight: 500; }
+
+.skills img {
   margin-bottom: 125px; }
 
 /*# sourceMappingURL=style.css.map */
