@@ -23,7 +23,7 @@
 
 header {
   background-image: url(../images/bg_element.png);
-  background-repeat: no-repeat; }
+  background-repeat: repeat-x; }
 
 .navbar-default {
   box-shadow: none;
@@ -64,17 +64,19 @@ header {
   margin-right: 20px;
   margin-top: 30px;
   margin-bottom: 300px; }
-.luis .btn.btn-default {
+
+.btn.btn-default {
   background-color: transparent;
   background-image: none;
   border: #4d4d4d solid 1px;
   border-radius: 0;
   color: #4d4d4d;
   font-size: 16px;
-  padding: 18px 45px;
+  padding: 15px 45px;
   font-family: 'Asap', normal;
-  font-weight: 500; }
-  .luis .btn.btn-default:hover {
+  font-weight: 500;
+  margin-top: 30px; }
+  .btn.btn-default:hover {
     background-color: white;
     box-shadow: #9b9b9b 0 0 10px;
     border: none; }
@@ -95,17 +97,6 @@ header {
     font-size: 16px;
     font-family: 'Asap', normal;
     font-weight: normal; }
-  .about .btn.btn-default {
-    background-color: transparent;
-    background-image: none;
-    border: #4d4d4d solid 1px;
-    border-radius: 0;
-    color: #4d4d4d;
-    font-size: 16px;
-    padding: 18px 45px;
-    font-family: 'Asap', normal;
-    font-weight: 500;
-    margin-top: 35px; }
 
 .about h4:before {
   content: '';
@@ -150,5 +141,16 @@ header {
 
 .skills img {
   margin-bottom: 125px; }
+
+.portfolio {
+  background-color: #f6f6f6;
+  padding-bottom: 123px; }
+  .portfolio img {
+    margin-bottom: 30px; }
+  .portfolio img:hover {
+    box-shadow: #9b9b9b 0 0 25px; }
+  .portfolio a {
+    position: relative;
+    right: 15%; }
 
 /*# sourceMappingURL=style.css.map */

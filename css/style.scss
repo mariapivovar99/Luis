@@ -42,7 +42,7 @@
 
 header{
   background-image: url(../images/bg_element.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 .navbar-default{
   box-shadow: none;
@@ -94,22 +94,23 @@ header{
       margin-bottom: 300px;
     }
   }
-  .btn.btn-default{
-    background-color: transparent;
-    background-image: none;
-    border: #4d4d4d solid 1px;
-    border-radius: 0;
-    color: #4d4d4d;
-    font-size: 16px;
-    padding: 18px 45px;
-    font-family: 'Asap', normal;
-    font-weight: 500;
+}
+.btn.btn-default{
+  background-color: transparent;
+  background-image: none;
+  border: #4d4d4d solid 1px;
+  border-radius: 0;
+  color: #4d4d4d;
+  font-size: 16px;
+  padding: 15px 45px;
+  font-family: 'Asap', normal;
+  font-weight: 500;
+  margin-top: 30px;
 
-    &:hover{
-      background-color: white;
-      box-shadow: #9b9b9b 0 0 10px;
-      border: none;
-    }
+  &:hover{
+    background-color: white;
+    box-shadow: #9b9b9b 0 0 10px;
+    border: none;
   }
 }
 .about{
@@ -129,19 +130,6 @@ header{
     font-size: 16px;
     font-family: 'Asap', normal;
     font-weight: normal;
-  }
-
-  .btn.btn-default{
-    background-color: transparent;
-    background-image: none;
-    border: #4d4d4d solid 1px;
-    border-radius: 0;
-    color: #4d4d4d;
-    font-size: 16px;
-    padding: 18px 45px;
-    font-family: 'Asap', normal;
-    font-weight: 500;
-    margin-top: 35px;
   }
 }
 .about h4:before{
@@ -195,7 +183,18 @@ header{
     margin-bottom: 125px;
   }
 }
-.portfolio img{
-
+.portfolio{
+  background-color: #f6f6f6;
+  padding-bottom: 123px;
+  img{
+    margin-bottom: 30px;
+  }
+  img:hover{
+    box-shadow: #9b9b9b 0 0 25px;
+  }
+  a{
+    position: relative;
+    right: 15%;
+  }
 }
 
