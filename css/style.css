@@ -125,7 +125,7 @@ header {
   .serv img {
     margin-bottom: 20px; }
 
-.serv h4, .skills h4 {
+.serv h4, .skills h4, .portfolio h4 {
   color: #7c7c7c;
   font-size: 46px;
   margin-top: 140px;
@@ -133,7 +133,7 @@ header {
   position: relative;
   font-family: 'Asap', normal;
   font-weight: bold; }
-.serv h4:before, .skills h4:before {
+.serv h4:before, .skills h4:before, .portfolio h4:before {
   content: '';
   border-bottom: #7c7c7c solid 5px;
   width: 65px;
@@ -141,7 +141,7 @@ header {
   position: absolute;
   bottom: 70px;
   left: 47%; }
-.serv h5, .skills h5 {
+.serv h5, .skills h5, .portfolio h5 {
   padding-bottom: 80px;
   font-size: 24px;
   color: #4d4d4d;
