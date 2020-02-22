@@ -23,7 +23,7 @@
 
 header {
   background-image: url(../images/bg_element.png);
-  background-repeat: repeat-x; }
+  background-size: cover; }
 
 .navbar-default {
   box-shadow: none;
@@ -159,23 +159,25 @@ header {
 .carousel .container {
   max-width: 955px;
   margin: auto; }
-  .carousel .container .block {
+  .carousel .container .flex-container {
     border: black solid 1px;
-    padding: 82px 50px 80px 102px; }
-    .carousel .container .block img {
+    padding: 82px 50px 80px 102px;
+    display: flex;
+    justify-content: space-between; }
+    .carousel .container .flex-container img {
       max-width: 159px; }
 
-.carousel.container.block .review {
-  display: inline-block; }
-  .carousel.container.block .review h5 {
+.review {
+  margin-left: 30px; }
+  .review h5 {
     color: #212121;
     text-transform: uppercase;
     font-size: 30px; }
-  .carousel.container.block .review span {
+  .review span {
     color: #212121;
     text-transform: uppercase;
     font-size: 12px; }
-  .carousel.container.block .review p {
+  .review p {
     color: #949494;
     text-transform: uppercase;
     font-size: 16px; }
@@ -219,7 +221,8 @@ header {
 
 footer {
   background-image: url(../images/contact_bg.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   footer h3 {
     color: #f0f0f0;
     font-size: 46px;

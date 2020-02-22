@@ -42,7 +42,7 @@
 
 header{
   background-image: url(../images/bg_element.png);
-  background-repeat: repeat-x;
+  background-size: cover;
 }
 .navbar-default{
   box-shadow: none;
@@ -204,17 +204,19 @@ header{
   .container {
     max-width: 955px;
     margin: auto;
-    .block {
+    .flex-container {
       border: black solid 1px;
       padding: 82px 50px 80px 102px;
+      display: flex;
+      justify-content: space-between;
       img {
         max-width: 159px;
       }
     }
   }
 }
-.carousel.container.block .review{
-    display: inline-block;
+.review{
+  margin-left: 30px;
   h5 {
       color: #212121;
       text-transform: uppercase;
@@ -275,6 +277,7 @@ header{
 footer{
   background-image: url(../images/contact_bg.png);
   background-repeat: no-repeat;
+  background-size: cover;
   h3{
     color: #f0f0f0;
     font-size: 46px;
