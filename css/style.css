@@ -25,6 +25,18 @@ header {
   background-image: url(../images/bg_element.png);
   background-size: cover; }
 
+.btn-up {
+  position: fixed;
+  right: 0;
+  bottom: 262px;
+  background-color: white;
+  color: #4d4d4d;
+  padding-left: 5px;
+  height: 27px;
+  width: 27px;
+  text-decoration: none;
+  font-size: 22px; }
+
 .navbar-default {
   box-shadow: none;
   border: none;
@@ -277,7 +289,8 @@ footer {
       margin-left: 8px; }
 
 footer {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  position: relative; }
   footer .soc_icon {
     background-color: white;
     color: #4d4d4d;
@@ -294,7 +307,8 @@ footer {
     font-size: 16px;
     color: white;
     font-family: 'Asap', normal;
-    font-weight: 500; }
+    font-weight: 500;
+    margin-left: 220px; }
 
 .fb:hover {
   background-color: #245580;
@@ -319,5 +333,18 @@ footer {
 .dribble:hover {
   background-color: darkmagenta;
   color: white; }
+
+.btn-up {
+  position: fixed;
+  right: 0;
+  bottom: 190px;
+  background-color: white;
+  color: #4d4d4d;
+  padding-left: 16px;
+  padding-top: 12px;
+  height: 45px;
+  width: 45px;
+  text-decoration: none;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

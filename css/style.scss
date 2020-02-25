@@ -43,6 +43,19 @@
 header{
   background-image: url(../images/bg_element.png);
   background-size: cover;
+
+}
+.btn-up{
+  position: fixed;
+  right: 0;
+  bottom: 262px;
+  background-color: white;
+  color: #4d4d4d;
+  padding-left: 5px;
+  height: 27px;
+  width: 27px;
+  text-decoration: none;
+  font-size: 22px;
 }
 .navbar-default{
   box-shadow: none;
@@ -343,6 +356,7 @@ footer{
 }
 footer{
   padding-bottom: 30px;
+  position: relative;
   .soc_icon{
     background-color: white;
     color: #4d4d4d;
@@ -363,8 +377,10 @@ footer{
     color: white;
     font-family: 'Asap', normal;
     font-weight: 500;
+    margin-left: 220px;
   }
 }
+
 .fb:hover{
   background-color: #245580;
   color: white;
@@ -388,5 +404,18 @@ footer{
 .dribble:hover{
   background-color: darkmagenta;
   color: white;
+}
+.btn-up{
+  position: fixed;
+  right: 0;
+  bottom: 190px;
+  background-color: white;
+  color: #4d4d4d;
+  padding-left: 16px;
+  padding-top: 12px;
+  height: 45px;
+  width: 45px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
